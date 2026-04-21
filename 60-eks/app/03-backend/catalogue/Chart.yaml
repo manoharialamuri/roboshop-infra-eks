@@ -1,0 +1,5 @@
+apiVersion: v2 #The chart API version
+name: catalogue #The name of the chart
+version: 0.0.1 #The version of the chart
+description: installing catalogue
+appVersion: 1.0.0 #The version of the app that this contains (optional)
