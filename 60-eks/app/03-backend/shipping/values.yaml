@@ -1,6 +1,6 @@
 configMap:
   CART_ENDPOINT: "cart:8080"
-  DB_HOST: "roboshop-dev.ccvy026aid3u.us-east-1.rds.amazonaws.com"
+  DB_HOST: "roboshop-dev.ccvy026aid3u.us-east-1.rds.amazonaws.com" # This has to be changed by our ENDPOINT DNS
 deployment:
   replicas: "1"
   imageName: "manohari07/shipping"
