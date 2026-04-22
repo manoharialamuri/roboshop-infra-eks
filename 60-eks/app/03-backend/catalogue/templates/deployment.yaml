@@ -26,7 +26,7 @@ spec:
     spec:
       containers:
       - name: catalogue
-        image: {{ .Values.deployment.imagename }}:{{ .Values.deployment.imageversion }}
+        image: "{{ .Values.deployment.imagename }}:{{ .Values.deployment.imageversion }}"
         imagePullPolicy: Always # safe to pull everytime, there may be images with same version rebuilt and pushed
         resources:
           requests:
